@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To - Do List"
+        android:textSize="30sp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/chkdinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:textSize="25sp"
+        />
+
+    <CheckBox
+        android:id="@+id/chkcoding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding"
+        android:textSize="25sp"
+        />
+    <CheckBox
+        android:id="@+id/chkreading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"
+        android:textSize="25sp"
+        />
+
+    <CheckBox
+        android:id="@+id/chkgaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed Tasks"
+        android:textSize="25sp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/completedtask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="top"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Completed Tasks"
+        android:textSize="25sp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/notcompletedtask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="top"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    
+</LinearLayout>
